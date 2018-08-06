@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1510004244821.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "67BAB5B9",
+    "lastKnownWriteTime" : 1510007512,
+    "last_content_update" : 1510007512771,
+    "path" : "~/Documents/Websites/ids-labs/code/02-edit-html-files.R",
+    "project_path" : "code/02-edit-html-files.R",
+    "properties" : {
+        "cursorPosition" : "59,1",
+        "scrollLine" : "32",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,75 @@
+# Site settings
+baseurl = "http://rob.mobilizingcs.org/ids-labs/"
+# HTML Language Code Reference, such as en, zh-cn
+languageCode = "en"
+title = "IDS Labs"
+theme = "hugo-theme-cactus-plus"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+hasCJKLanguage = false
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[params]
+	name = ""
+	description = "Links to the slides used in the labs are listed below"
+	bio = "Links to the slides used in the labs are listed below"
+	# Enter optionally your twitter account
+	twitter = "mobilizingcs"
+	enableRSS = false
+
+	# Disqus comment
+	disqusShortname = ""
+	# Disable disqus comments by set `enableDisqus = "false"`
+	enableDisqus = false
+
+	# Duoshuo comment
+	duoshuoShortname = ""
+	# Disable duoshuo comments by set `enableDuoshuo = "false"`
+	enableDuoshuo = false
+
+	enableGithubIssuesTips = false
+
+	# Enable googleAnalytics
+	enableGoogleAnalytics = false
+
+	# Enable baiduAnalytics
+	enableBaiduAnalytics = false
+	# Baidu Tongji Code
+	baiduAnalytics = 'your_baidu_tongji_code'
+
+	# Add custom assets with their paths relative to the static folder
+	customCSS = []
+	customJS  = []
+
+	# The variables below are optionally too and can be used to
+	# translate or customize each string of the theme.
+
+	# Navigation links
+	home = "Lab list"
+	labs = ""
+	archive = ""
+	subscribe = ""
+	tags = ""
+	# Pagination links
+	olderPosts = ""
+	newerPosts = ""
+	readMore = ""
+	copyright = ""
+	# Sharing options and author information in posts
+	aboutAuthor = "I am so interesting."
+	tweet = ""
+	share = ""
+	# 404 page
+	title404 = ""
+	subtitle404 = ""
+
+	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
+	iconFont = "font-awesome"
+  # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
+  socialIconStyle = ""
+
+
+# Add additional social link entries underneath
+[social]
+  twitter-square = "https://twitter.com/mobilizingcs"
+  github-square = "https://github.com/mobilizingcs/ids_labs"

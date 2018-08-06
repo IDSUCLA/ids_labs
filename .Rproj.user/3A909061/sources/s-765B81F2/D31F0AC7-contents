@@ -1,0 +1,52 @@
+<div class="profile">
+    <section id="wrapper">
+        <header id="header">
+            <a href='{{ .Site.BaseURL }}'>
+                <img id="avatar" src="{{ .Site.BaseURL }}images/ids.png">
+            </a>
+            <h1>{{ .Site.Params.name }}</h1>
+            {{ with .Site.Params.bio }}
+            <h2>{{ . | markdownify }}</h2>
+            {{ end }}
+        </header>
+    <h3>Unit 1</h3>
+    <p><a href="/labs/lab1a/index.html">Lab 1A - Data, Code & RStudio</a></p>
+    <p><a href="/labs/lab1b/index.html">Lab 1B - Get the picture?</a></p>
+    <p><a href="/labs/lab1c/index.html">Lab 1C - Export, Upload, Import</a></p>
+    <p><a href="/labs/lab1d/index.html">Lab 1D - Zooming Through Data</a></p>
+    <p><a href="/labs/lab1e/index.html">Lab 1E - What's the Relationship?</a></p>
+    <p><a href="/labs/lab1f/index.html">Lab 1F - A Diamond in the Rough</a></p>
+    <p><a href="/labs/lab1g/index.html">Lab 1G - What's the FREQ?</a></p>
+    <p><a href="/labs/lab1h/index.html">Lab 1H - Our Time</a></p>
+    
+    <h3>Unit 2</h3>
+    <p><a href="/labs/lab2a/index.html">Lab 2A - All About Distributions</a></p>
+    <p><a href="/labs/lab2b/index.html">Lab 2B - Oh the Summaries...</a></p>
+    <p><a href="/labs/lab2c/index.html">Lab 2C - Which Song Plays Next?</a></p>
+    <p><a href="/labs/lab2d/index.html">Lab 2D - Queue It Up!</a></p>
+    <p><a href="/labs/lab2e/index.html">Lab 2E - The Horror Movie Shuffle</a></p>
+    <p><a href="/labs/lab2f/index.html">Lab 2F - The Titanic Shuffle</a></p>
+    <p><a href="/labs/lab2g/index.html">Lab 2G - Getting It Together</a></p>
+    <p><a href="/labs/lab2h/index.html">Lab 2H - Eyeballing Normal</a></p>
+    <p><a href="/labs/lab2i/index.html">Lab 2I - R's Normal Distribution Alphabet</a></p>
+    
+    <h3>Unit 3</h3>
+    <p><a href="/labs/lab3a/index.html">Lab 3A - The Results Are In!</a></p>
+    <p><a href="/labs/lab3b/index.html">Lab 3B - Confound It All!</a></p>
+    <p><a href="/labs/lab3c/index.html">Lab 3C - Random Sampling</a></p>
+    <p><a href="/labs/lab3d/index.html">Lab 3D - Are You Sure About That?</a></p>
+    <p><a href="/labs/lab3e/index.html">Lab 3E - Scraping Web Data</a></p>
+    <p><a href="/labs/lab3f/index.html">Lab 3F - Maps</a></p>
+    
+    <h3>Unit 4</h3>
+    <p><a href="/labs/lab4a/index.html">Lab 4A - If the Line Fits ...</a></p>
+    <p><a href="/labs/lab4b/index.html">Lab 4B - What's the Score?</a></p>
+    <p><a href="/labs/lab4c/index.html">Lab 4C - Cross-Validation</a></p>
+    <p><a href="/labs/lab4d/index.html">Lab 4D - Interpreting Correlations</a></p>
+    <p><a href="/labs/lab4e/index.html">Lab 4E - This Model is Big Enough for All of Us!</a></p>
+    <p><a href="/labs/lab4f/index.html">Lab 4F - Some Models Have Curves</a></p>
+    <p><a href="/labs/lab4g/index.html">Lab 4G - Growing Trees</a></p>
+    <p><a href="/labs/lab4h/index.html">Lab 4H - Finding Clusters</a></p>
+    
+    </section>
+</div>

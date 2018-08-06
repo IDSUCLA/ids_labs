@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1509990931281.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "77EA1ED",
+    "lastKnownWriteTime" : 1510104776,
+    "last_content_update" : 1510104776648,
+    "path" : "~/Documents/Websites/ids-labs/config.toml",
+    "project_path" : "config.toml",
+    "properties" : {
+        "cursorPosition" : "1,49",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}
